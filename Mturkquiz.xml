@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/QuestionForm.xsd QuestionForm.xsd">
+  <Overview>
+    <Text>Please classify each GoF software design pattern on a Likert scale from 1 (least useful) to 5 (most useful).</Text>
+  </Overview>
+
+  <Question>
+    <QuestionIdentifier>singleton</QuestionIdentifier>
+    <DisplayName>Singleton Pattern</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How useful do you find the Singleton pattern?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection><SelectionIdentifier>1</SelectionIdentifier><Text>1 - Not useful</Text></Selection>
+          <Selection><SelectionIdentifier>2</SelectionIdentifier><Text>2 - Slightly useful</Text></Selection>
+          <Selection><SelectionIdentifier>3</SelectionIdentifier><Text>3 - Moderately useful</Text></Selection>
+          <Selection><SelectionIdentifier>4</SelectionIdentifier><Text>4 - Very useful</Text></Selection>
+          <Selection><SelectionIdentifier>5</SelectionIdentifier><Text>5 - Extremely useful</Text></Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>observer</QuestionIdentifier>
+    <DisplayName>Observer Pattern</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How useful do you find the Observer pattern?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection><SelectionIdentifier>1</SelectionIdentifier><Text>1 - Not useful</Text></Selection>
+          <Selection><SelectionIdentifier>2</SelectionIdentifier><Text>2 - Slightly useful</Text></Selection>
+          <Selection><SelectionIdentifier>3</SelectionIdentifier><Text>3 - Moderately useful</Text></Selection>
+          <Selection><SelectionIdentifier>4</SelectionIdentifier><Text>4 - Very useful</Text></Selection>
+          <Selection><SelectionIdentifier>5</SelectionIdentifier><Text>5 - Extremely useful</Text></Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>factorymethod</QuestionIdentifier>
+    <DisplayName>Factory Method Pattern</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How useful do you find the Factory Method pattern?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection><SelectionIdentifier>1</SelectionIdentifier><Text>1 - Not useful</Text></Selection>
+          <Selection><SelectionIdentifier>2</SelectionIdentifier><Text>2 - Slightly useful</Text></Selection>
+          <Selection><SelectionIdentifier>3</SelectionIdentifier><Text>3 - Moderately useful</Text></Selection>
+          <Selection><SelectionIdentifier>4</SelectionIdentifier><Text>4 - Very useful</Text></Selection>
+          <Selection><SelectionIdentifier>5</SelectionIdentifier><Text>5 - Extremely useful</Text></Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>
